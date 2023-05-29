@@ -1,0 +1,24 @@
+.bFooter{
+    background-color: #1E2832;
+    height: 52px;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.scroll a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.scroll span{
+    color: #FFFFFF;
+    font-size: 12px;
+}
+
+.scroll img{
+    width: 16px;
+    height: 16px;
+}

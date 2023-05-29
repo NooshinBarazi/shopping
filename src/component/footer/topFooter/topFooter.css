@@ -1,0 +1,32 @@
+section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 150px;
+    width: 100%;
+    height: 300px;
+    margin: 50px 0px;
+}
+
+.firstColumn{
+    width: 300px;
+}
+
+.topFooter{
+    height: 212px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    font: 14px;
+    margin-right: 5px;
+}
+
+.topFooter p{
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.contactIcon img{
+   margin-right: 35px;
+}
