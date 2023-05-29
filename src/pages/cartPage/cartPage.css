@@ -1,0 +1,92 @@
+.container {
+  background-color: #F1F1F1;
+  width: 100%;
+}
+
+.cartCenter {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+}
+
+.cartItemList {
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  border-radius: 5px;
+  border: 1px solid #E3E3E3;
+  flex: 1;
+  padding: 1rem;
+  width: 70%;
+  height: 100%;
+}
+
+.cartItem {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #E3E3E3;
+}
+
+.cartItem .itemImg {
+  width: 100px;
+  height: 100px;
+}
+
+.cartItem .itemImg img {
+  width: 100%;
+  height: 80%;
+}
+
+.cartSummery {
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  border-radius: 5px;
+  border: 1px solid #E3E3E3;
+  width: 30%;
+  margin-left: 3rem;
+}
+
+.summeryItem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+.summeryItem.net {
+  border-top: 1px solid #E3E3E3;
+  padding-top: 3px;
+}
+
+button {
+  outline: none;
+  color: #ffffff;
+  border: 1px solid #1E2832;
+  padding: 5px 10px;
+  background-color: #1E2832;
+}
+
+.checkoutBtn{
+  cursor: pointer;
+  margin: 20px 0;
+   width: 100%;
+}
+
+.btnGroup button:first-child {
+  border-radius: 5px 0 0 5px;
+}
+
+.btnGroup button:last-child {
+  border-radius: 0 5px 5px 0;
+}
+
+.btnGroup button:nth-child(2) {
+  border-left: 0;
+  border-right: 0;
+}
